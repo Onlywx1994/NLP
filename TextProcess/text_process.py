@@ -33,3 +33,6 @@ class Process(object):
         id2word={id:word for id ,word in enumerate(vocab)}
 
         return word2id,id2word
+
+    def text_covert_to_code(self):
+
